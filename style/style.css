@@ -1,0 +1,599 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: neuropol_medium;
+  src: url('../fonts/neuropol_medium.ttf');
+}
+@font-face {
+  font-family: agopus_highresolution_roman;
+  src: url('../fonts/agopus_highresolution_roman.ttf');
+}
+#container {
+  background: #3B6187;
+  height: 105vh;
+  width: 120%;
+  /* begin #header */
+  /* end #header */
+  /* begin #nav */
+  /* end #nav */
+  /* begin #work_hourse */
+  /* end #work_hourse */
+}
+#container #header {
+  width: 100%;
+  height: 20%;
+}
+#container #header #logo_site {
+  position: absolute;
+  width: 70%;
+  height: 20%;
+}
+#container #header #logo_site p {
+  position: relative;
+  font-size: 15vh;
+  top: 25%;
+  left: 7%;
+  font-family: 'neuropol_medium', sans-serif;
+  color: #fff;
+}
+#container #header #mobile_number {
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  left: 55%;
+  top: 4%;
+}
+#container #header #mobile_number img {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  height: 26%;
+}
+#container #header #mobile_number p {
+  position: absolute;
+  font-size: 4vh;
+  left: 30%;
+  top: 60%;
+  color: #fff;
+  width: 300px;
+}
+#container #nav {
+  position: absolute;
+  width: 30%;
+  height: 35%;
+  top: 30%;
+  left: 2%;
+}
+#container #nav li {
+  list-style: none;
+  padding: 5% 0 0 10%;
+}
+#container #nav li a {
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  font-family: 'agopus_highresolution_roman', sans-serif;
+  font-size: 3.5vh;
+}
+#container #nav li a:hover {
+  color: #E6E200;
+}
+#container #nav li a:visited {
+  opacity: 0.5;
+}
+#container #work_hourse {
+  position: absolute;
+  margin-top: 2rem;
+  width: 20%;
+  height: 20%;
+  top: 63%;
+  left: 7%;
+}
+#container #work_hourse .line {
+  position: absolute;
+  background-color: #748EA8;
+}
+#container #work_hourse .hour_bottom_line {
+  height: 0.6%;
+  width: 100%;
+  left: -5%;
+}
+#container #work_hourse .hour_bottom_line_left {
+  width: 0.5%;
+  height: 46%;
+  bottom: 8%;
+  left: -5%;
+}
+#container #work_hourse .hour_bottom_line_right {
+  width: 0.5%;
+  height: 30%;
+  bottom: 8%;
+  left: 94.5%;
+}
+#container #work_hourse .hour_top_line {
+  height: 1%;
+  width: 100%;
+  left: -5%;
+  top: -5%;
+}
+#container #work_hourse .hour_top_line_right {
+  width: 0.5%;
+  height: 49%;
+  bottom: 55%;
+  left: 94.5%;
+}
+#container #work_hourse .hour_top_line_left {
+  width: 0.5%;
+  height: 30%;
+  bottom: 74%;
+  left: -5%;
+}
+#container #work_hourse .hour_top_line_1 {
+  height: 1.5px;
+  width: 31%;
+  left: -35.5%;
+  top: 45%;
+}
+#container #work_hourse .hour_top_line_2 {
+  height: 1px;
+  width: 35%;
+  left: 94.5%;
+  top: 45%;
+}
+#container #work_hourse p {
+  color: #A3B9CF;
+  font-family: 'agopus_highresolution_roman', sans-serif;
+  font-size: 3.5vh;
+  padding: 0 3% 3%;
+}
+#container .line {
+  position: absolute;
+  background-color: #748EA8;
+}
+#container .top_line {
+  width: 120%;
+  height: 0.2%;
+  top: 3%;
+}
+#container .top_line_right {
+  width: 0.1%;
+  height: 24%;
+  top: 0%;
+  left: 3%;
+}
+#container .top_line_left_1 {
+  height: 5%;
+  width: 0.1%;
+  left: 102%;
+  top: 3%;
+}
+#container .right_line_left_2 {
+  height: 100%;
+  width: 0.1%;
+  left: 114%;
+  top: 0%;
+}
+#container .bottom_line {
+  width: 114%;
+  height: 0.1%;
+  bottom: 0%;
+}
+#container .bottom_line_1 {
+  width: 0.1%;
+  height: 5%;
+  left: 102%;
+  bottom: 0%;
+}
+#container .bottom_line_2 {
+  width: 0.1%;
+  height: 20%;
+  left: 3%;
+  bottom: -8%;
+}
+#container #slider_border {
+  position: absolute;
+  width: 80%;
+  height: 65%;
+  left: 31%;
+  top: 25%;
+  border: 2px solid #fff;
+}
+#container #slider_border #anim {
+  position: relative;
+  top: -10px;
+}
+#container #wrapperSlider {
+  position: relative;
+  top: 5%;
+  left: 27%;
+  width: 65%;
+  background-color: red;
+}
+#container #wrapperSlider .slider div img {
+  height: 370px;
+  width: 100%;
+}
+#container #wrapperSlider .active {
+  background: white;
+}
+#container .bx-pager-item {
+  position: relative;
+  top: 10px;
+  left: 40%;
+  width: 2%;
+  margin-left: 10px;
+}
+#container .bx-pager-item a {
+  height: 10px;
+  width: 10px;
+  background: #396086;
+  border: 1px solid white;
+}
+#container #footer {
+  position: absolute;
+  top: 93%;
+  left: 40%;
+}
+#container #footer p {
+  color: white;
+  font-size: 2em;
+}
+#container #footer #label {
+  position: relative;
+  left: 103%;
+  top: -33px;
+  width: 30px;
+}
+#container .dot1 {
+  position: relative;
+  bottom: 130px;
+  left: 4.61%;
+  width: 10px;
+}
+#container .dot2 {
+  position: relative;
+  bottom: 97px;
+  left: 21.2%;
+  width: 10px;
+}
+#container .dot3 {
+  position: relative;
+  bottom: 7px;
+  left: 84.55%;
+  width: 10px;
+}
+#container .dot4 {
+  position: relative;
+  bottom: 590px;
+  left: 84.55%;
+  width: 10px;
+}
+/* end #container */
+/* begin-media-request */
+@media (max-width : 480px) {
+  #container {
+    /* begin-header */
+    /* end-header */
+    /* begin-nav */
+    /* end-nav */
+    /* begin-slider */
+    /* end-slider */
+    /* end work-hourse */
+  }
+  #container #header {
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    top: 5%;
+  }
+  #container #header #logo_site p {
+    position: relative;
+    font-size: 4em;
+    top: 0%;
+    left: 25%;
+    font-family: 'neuropol_medium', sans-serif;
+    color: #fff;
+  }
+  #container #header #mobile_number {
+    position: absolute;
+    width: 100%;
+    top: 44%;
+    left: 42%;
+  }
+  #container #header #mobile_number p {
+    margin-top: 3%;
+    font-size: 1em;
+  }
+  #container #header #mobile_number img {
+    width: 15px;
+    height: 15px;
+    left: 75px;
+    top: 27px;
+  }
+  #container #nav {
+    width: 100%;
+    top: 21%;
+    left: 6%;
+  }
+  #container #nav ul li {
+    display: inline;
+    padding: 0 2px;
+  }
+  #container #nav ul li a {
+    font-size: 0.6em;
+  }
+  #container #slider_border {
+    width: 87%;
+    height: 30%;
+    left: 5%;
+  }
+  #container #wrapperSlider {
+    position: relative;
+    top: 25%;
+    left: 6%;
+    width: 70%;
+    background-color: red;
+  }
+  #container #wrapperSlider .slider div img {
+    height: 155px;
+    width: 100%;
+  }
+  #container #wrapperSlider .active {
+    background: white;
+  }
+  #container .bx-pager-item {
+    position: relative;
+    top: 7px;
+    left: 40%;
+    width: 2%;
+    margin-left: 7px;
+  }
+  #container .bx-pager-item a {
+    height: 6px;
+    width: 6px;
+    background: #396086;
+    border: 1px solid white;
+  }
+  #container #work_hourse {
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top: 55%;
+    left: 30%;
+  }
+  #container #work_hourse p {
+    color: #A3B9CF;
+    font-family: 'agopus_highresolution_roman', sans-serif;
+    font-size: 100%;
+    padding: 0 3% 3%;
+  }
+  #container #work_hourse .line {
+    position: absolute;
+    background-color: #748EA8;
+  }
+  #container #work_hourse .hour_bottom_line {
+    width: 80%;
+    height: 1px;
+  }
+  #container #work_hourse .hour_bottom_line_left {
+    height: 35%;
+    width: 1px;
+    top: 30%;
+  }
+  #container #work_hourse .hour_bottom_line_right {
+    height: 20%;
+    width: 1px;
+    top: 47%;
+    left: 75%;
+  }
+  #container #work_hourse .hour_top_line {
+    width: 80%;
+    height: 1px;
+  }
+  #container #work_hourse .hour_top_line_right {
+    width: 1px;
+    height: 35%;
+    top: -4%;
+    left: 75%;
+  }
+  #container #work_hourse .hour_top_line_left {
+    height: 20%;
+    top: -4%;
+  }
+  #container #work_hourse .hour_top_line_1 {
+    height: 1px;
+    top: 30%;
+  }
+  #container #work_hourse .hour_top_line_2 {
+    height: 1px;
+    top: 30%;
+    left: 75%;
+  }
+  #container #footer {
+    top: 93%;
+    left: 20%;
+  }
+  #container #footer p {
+    color: white;
+    font-size: 1em;
+  }
+  #container .dot1 {
+    position: relative;
+    bottom: -180px;
+    left: 70px;
+    width: 10px;
+  }
+  #container .dot2 {
+    position: relative;
+    bottom: -160px;
+    left: 61%;
+    width: 10px;
+  }
+  #container .dot3 {
+    position: relative;
+    bottom: -320px;
+    left: 84%;
+    width: 10px;
+  }
+  #container .dot4 {
+    position: relative;
+    bottom: 240px;
+    left: 84%;
+    width: 10px;
+  }
+  /* end-container */
+}
+/* end-mobile */
+@media (min-width : 481px) and (max-width : 768px) {
+  #container {
+    /* begin-header */
+    /* end-header */
+    /* begin-nav */
+    /* end-nav */
+    /* begin-slider */
+    /* end-sldier */
+    /* begin-work_hourse */
+    /* end-work_hourse */
+  }
+  #container #header #logo_site p {
+    font-size: 5em;
+  }
+  #container #header #mobile_number {
+    top: 1%;
+  }
+  #container #header #mobile_number p {
+    font-size: 1.3em;
+  }
+  #container #header #mobile_number img {
+    width: 20px;
+    height: 20px;
+    top: 80px;
+  }
+  #container #nav {
+    width: 90%;
+    height: 3%;
+    top: 20%;
+    left: 5%;
+  }
+  #container #nav ul li {
+    display: inline;
+    padding: 0 5px 0 5px;
+  }
+  #container #nav ul li a {
+    font-size: 1em;
+  }
+  #container #slider_border {
+    width: 90%;
+    height: 40%;
+    left: 5%;
+  }
+  #container #wrapperSlider {
+    position: relative;
+    top: 5%;
+    left: 6%;
+    width: 72%;
+    background-color: red;
+  }
+  #container #wrapperSlider .slider div img {
+    height: 210px;
+    width: 100%;
+  }
+  #container #wrapperSlider .active {
+    background: white;
+  }
+  #container .bx-pager-item {
+    position: relative;
+    top: 10px;
+    left: 40%;
+    width: 2%;
+    margin-left: 10px;
+  }
+  #container .bx-pager-item a {
+    height: 8px;
+    width: 8px;
+    background: #396086;
+    border: 1px solid white;
+  }
+  #container #work_hourse {
+    left: 40%;
+  }
+  #container #work_hourse p {
+    font-size: 1em;
+  }
+  #container #work_hourse .line {
+    position: absolute;
+    background-color: #748EA8;
+  }
+  #container #work_hourse .hour_bottom_line {
+    width: 100%;
+    height: 1px;
+  }
+  #container #work_hourse .hour_bottom_line_left {
+    height: 35%;
+    width: 1px;
+    top: 30%;
+  }
+  #container #work_hourse .hour_bottom_line_right {
+    height: 20%;
+    width: 1px;
+    top: 45%;
+  }
+  #container #work_hourse .hour_top_line {
+    width: 100%;
+    height: 1px;
+  }
+  #container #work_hourse .hour_top_line_right {
+    width: 1px;
+    height: 35%;
+    top: -4%;
+  }
+  #container #work_hourse .hour_top_line_left {
+    height: 20%;
+    top: -4%;
+  }
+  #container #work_hourse .hour_top_line_1 {
+    height: 1.5px;
+    top: 30%;
+  }
+  #container #work_hourse .hour_top_line_2 {
+    height: 1px;
+    top: 30%;
+  }
+  #container #footer {
+    position: absolute;
+    top: 93%;
+    left: 25%;
+  }
+  #container #footer p {
+    color: white;
+    font-size: 1.5em;
+  }
+  #container .dot1 {
+    position: relative;
+    bottom: -40px;
+    left: 240px;
+    width: 10px;
+  }
+  #container .dot2 {
+    position: relative;
+    bottom: -20px;
+    left: 485px;
+    width: 10px;
+  }
+  #container .dot3 {
+    position: relative;
+    bottom: -130px;
+    left: 84.55%;
+    width: 10px;
+  }
+  #container .dot4 {
+    position: relative;
+    bottom: 430px;
+    left: 84.55%;
+    width: 10px;
+  }
+}
+/* end-media-request */

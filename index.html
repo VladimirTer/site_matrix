@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- style -->
+	<link rel="stylesheet" href="./style/style.css">
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<script>
+	   $(document).ready(function(){
+	     $('.slider').bxSlider({
+	     	auto:true,
+	     	autoControl:true,
+	     	nextSelector:"#slider_next"
+	     });
+	   });
+
+	 </script>
+
+</head>
+<body>
+	<div id="container">
+		
+		<!-- begin header -->
+		<div id="header">
+			<div id="logo_site"><p>МАТРИЦА</p></div>
+			<div id="mobile_number"><img src="./img/phone.png" alt=""><p>8 (496) 613-33-72</p></div>
+		</div>
+		<!-- end header -->
+
+		<!-- begin nav -->
+		<div id="nav">
+			<ul>
+				<li><a href="#">ГЛАВНАЯ</a></li>
+				<li><a href="#">ИНТРЕНЕТ МАГАЗИН</a></li>
+				<li><a href="#">КУПИТЬ-ПРОДАТЬ</a></li>
+				<li><a href="#">РЕМОНТ</a></li>
+			</ul>
+		</div>
+		<!-- end nav -->
+		
+		<!-- begin work_hourse -->
+		<div id="work_hourse">
+			<p>Время работы:<br>10:00 - 19:00<br>Воскресенье:<br>10:00 - 17:00</p>
+			
+			<!-- begin .line -->
+			<div class="line hour_bottom_line"></div>
+			<div class="line hour_bottom_line_left"></div>
+			<div class="line hour_bottom_line_right"></div>
+			<div class="line hour_top_line"></div>
+			<div class="line hour_top_line_right"></div>
+			<div class="line hour_top_line_left"></div>
+			<div class="line hour_top_line_1"></div>
+			<div class="line hour_top_line_2"></div>
+			<!-- end .line -->
+
+		</div>
+		<!-- end work_hourse -->
+
+		<div class="line top_line"></div>
+		<div class="line top_line_right"></div>
+		<div class="line top_line_left_1"></div>
+		<div class="line right_line_left_2"></div>
+		<div class="line bottom_line"></div>
+		<div class="line bottom_line_1"></div>
+		<div class="line bottom_line_2"></div>
+
+		
+
+
+
+
+
+
+		<!-- begin #slider_border -->
+			<div id="slider_border">
+				<img id="anim" src="./img/slide_animate.png" alt="">
+			</div>
+			<div id="wrapperSlider">
+				<div class="slider">
+					<div><img src="./img/1.jpg" alt="" class="responsive"></div>	
+					<div><img src="./img/2.jpg" alt="" class="responsive"></div>	
+					<div><img src="./img/3.jpg" alt="" class="responsive"></div>
+				</div>
+			</div>
+		<!-- end #slider_border -->
+
+		<div id="footer">
+			<p>гор. Коломна., Окский пр-т.9</p>
+			<div id="label"><img src="./img/label.png" alt=""></div>
+		</div>
+		
+		<div class="dot1"><img src="./img/dot.png" alt=""></div>
+		<div class="dot2"><img src="./img/dot.png" alt=""></div>
+		<div class="dot3"><img src="./img/dot.png" alt=""></div>
+		<div class="dot4"><img src="./img/dot.png" alt=""></div>
+
+
+
+
+	</div>
+</body>
+
+</html>
