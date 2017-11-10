@@ -4,12 +4,12 @@
   padding: 0;
 }
 @font-face {
-  font-family: neuropol_medium;
-  src: url('../fonts/neuropol_medium.ttf');
+  font-family: NeuropolMedium;
+  src: url(../fonts/NeuropolMedium.ttf);
 }
 @font-face {
-  font-family: agopus_highresolution_roman;
-  src: url('../fonts/agopus_highresolution_roman.ttf');
+  font-family: agopus_highresolution_bold;
+  src: url(../fonts/agopus_highresolution_bold.ttf);
 }
 #container {
   background: #3B6187;
@@ -36,15 +36,15 @@
   font-size: 15vh;
   top: 25%;
   left: 7%;
-  font-family: 'neuropol_medium', sans-serif;
+  font-family: 'NeuropolMedium', sans-serif;
   color: #fff;
 }
 #container #header #mobile_number {
   position: absolute;
   width: 40%;
   height: 20%;
-  left: 55%;
-  top: 4%;
+  left: 65%;
+  top: -1%;
 }
 #container #header #mobile_number img {
   position: absolute;
@@ -69,7 +69,12 @@
 }
 #container #nav li {
   list-style: none;
-  padding: 5% 0 0 10%;
+  padding: 5% 0 3% 6%;
+  border-bottom: 1px solid #748EA9;
+  width: 80%;
+}
+#container #nav li:last-child {
+  border-bottom: none;
 }
 #container #nav li a {
   text-decoration: none;
@@ -216,6 +221,9 @@
   height: 370px;
   width: 100%;
 }
+#container #wrapperSlider .slider .bx-wrapper .bx-viewport {
+  background: red;
+}
 #container #wrapperSlider .active {
   background: white;
 }
@@ -240,6 +248,7 @@
 #container #footer p {
   color: white;
   font-size: 2em;
+  font-family: 'agopus_highresolution_bold', sans-serif;
 }
 #container #footer #label {
   position: relative;
@@ -293,15 +302,15 @@
     position: relative;
     font-size: 4em;
     top: 0%;
-    left: 25%;
-    font-family: 'neuropol_medium', sans-serif;
+    left: 10%;
+    font-family: 'NeuropolMedium', sans-serif;
     color: #fff;
   }
   #container #header #mobile_number {
     position: absolute;
     width: 100%;
-    top: 44%;
-    left: 42%;
+    top: 35%;
+    left: 60%;
   }
   #container #header #mobile_number p {
     margin-top: 3%;
@@ -321,6 +330,7 @@
   #container #nav ul li {
     display: inline;
     padding: 0 2px;
+    border-bottom: none;
   }
   #container #nav ul li a {
     font-size: 0.6em;
@@ -463,14 +473,17 @@
   }
   #container #header #mobile_number {
     top: 1%;
+    left: 70%;
   }
   #container #header #mobile_number p {
+    top: 55%;
     font-size: 1.3em;
+    width: 70%;
   }
   #container #header #mobile_number img {
     width: 20px;
     height: 20px;
-    top: 80px;
+    top: 70px;
   }
   #container #nav {
     width: 90%;
@@ -481,6 +494,7 @@
   #container #nav ul li {
     display: inline;
     padding: 0 5px 0 5px;
+    border-bottom: none;
   }
   #container #nav ul li a {
     font-size: 1em;

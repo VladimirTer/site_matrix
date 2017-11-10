@@ -1,8 +1,8 @@
 
 
 @charset "UTF-8";
-
-
+@urlNM:  ~"../fonts/NeuropolMedium.ttf";
+@urlAHB: ~"../fonts/agopus_highresolution_bold.ttf";
 
 *
 {
@@ -11,16 +11,13 @@
 }
 
 @font-face{
-	font-family: neuropol_medium;
-	src:url('../fonts/neuropol_medium.ttf');
+	font-family: NeuropolMedium;
+	src:url(@urlNM);
 }
 @font-face{
-	font-family: agopus_highresolution_roman;
-	src:url('../fonts/agopus_highresolution_roman.ttf');
+	font-family: agopus_highresolution_bold;
+	src:url(@urlAHB);
 }
-
-
-
 
 #container{
 	background: #3B6187;
@@ -42,7 +39,7 @@
 					font-size: 15vh;
 					top: 25%;
 					left: 7%;
-					font-family: 'neuropol_medium',sans-serif;
+					font-family: 'NeuropolMedium', sans-serif;
 					color:#fff;
 				}
 			}
@@ -51,8 +48,8 @@
 				position: absolute;
 				width: 40%;
 				height: 20%;
-				left: 55%;
-				top:4%;
+				left: 65%;
+				top:-1%;
 
 					img{
 						position: absolute;
@@ -84,14 +81,21 @@
 		
 		li{
 			list-style: none;
-			padding:5% 0 0 10%;
-			
+			padding:5% 0 3% 6%;
+			border-bottom: 1px solid #748EA9;
+			width: 80%;
+			&:last-child{
+				border-bottom: none;
+			}
+
 			a{
 				text-decoration: none;
 				color:#fff;
 				outline: none;
 				font-family: 'agopus_highresolution_roman',sans-serif;
 				font-size: 3.5vh;
+				
+				
 				
 				&:hover{
 					color:#E6E200;
@@ -250,10 +254,16 @@
 					width: 100%;
 				}
 			}
+
+			.bx-wrapper .bx-viewport{
+				background: red;
+
+			}
 		}
 		.active{
 			background: white;
 		}
+
 
 	}
 	.bx-pager-item{
@@ -278,6 +288,7 @@
 		    p{
 				color:white;
 				font-size: 2em;
+				font-family: 'agopus_highresolution_bold',sans-serif;
 			}
 			#label{
 				position: relative;
@@ -332,8 +343,8 @@
 					position: relative;
 					font-size: 4em;
 					top: 0%;
-					left: 25%;
-					font-family: 'neuropol_medium',sans-serif;
+					left: 10%;
+					font-family: 'NeuropolMedium', sans-serif;
 					color:#fff;
 				}
 			}
@@ -341,8 +352,8 @@
 			#mobile_number{
 				position: absolute;
 				width: 100%;
-				top: 44%;
-				left: 42%;
+				top: 35%;
+				left: 60%;
 				
 					p{
 						margin-top: 3%;
@@ -366,6 +377,7 @@
 					li{
 						display: inline;
 						padding:0 2px;
+						border-bottom: none;
 							a{
 								font-size: 0.6em;
 							}
@@ -522,16 +534,20 @@
 				p{
 					font-size: 5em;
 				}
+
 			}
 			#mobile_number{
 				top: 1%;
+				left: 70%;
 				p{
+					top: 55%;
 					font-size: 1.3em;
+					width: 70%;
 				}
 				img{
 					width: 20px;
 					height: 20px;
-					top:80px;
+					top:70px;
 				}
 			}
 		} /* end-header */
@@ -546,6 +562,7 @@
 					li{
 						display: inline;
 						padding:0 5px 0 5px;
+						border-bottom: none;
 							a{
 			
 								font-size: 1em;
@@ -687,5 +704,6 @@
 	}
 }
 
-
 /* end-media-request */
+
+
